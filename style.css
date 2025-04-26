@@ -52,16 +52,24 @@ nav a:hover {
   padding: 4rem 1rem;
 }
 
-.hero h1,
-.hero p {
+.hero h1 {
+  font-size: 3rem; /* Increased from 2.5rem */
+  font-weight: 700;
   opacity: 0;
   transform: translateY(20px);
   animation: dissolveIn 1.2s ease-out forwards;
 }
 
 .hero p {
+  margin-top: 1rem;
+  font-size: 1.5rem; /* Increased from 1.25rem */
+  color: #555;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: dissolveIn 1.2s ease-out forwards;
   animation-delay: 0.4s;
 }
+
 
 .memoji {
   width: 120px;
