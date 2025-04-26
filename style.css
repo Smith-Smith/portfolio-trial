@@ -42,23 +42,19 @@
 }
 
 .hero h1,
-.hero h2 { /* Make sure both texts are the same size and color */
+.hero h2 {
   font-size: 3rem;
   font-weight: 700;
-  color: #333; /* Same color for both */
+  color: #333;
   opacity: 0;
   transform: translateY(20px);
-  animation: dissolveIn 1.5s ease-out forwards; /* Slower dissolve */
+  animation: dissolveIn 2s ease-out forwards; /* slightly slower dissolve */
+  margin: 0;
 }
 
-.hero p {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  color: #555;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: dissolveIn 1.5s ease-out forwards;
-  animation-delay: 0.4s;
+/* Reduce space between name and role */
+.hero h2 {
+  margin-top: 0.5rem;
 }
 
 @keyframes dissolveIn {
