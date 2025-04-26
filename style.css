@@ -86,7 +86,7 @@ nav a {
 }
 
 .hero h2 {
-
+margin-top: 0px;
   font-size: 2.8rem;
   color: #555;
   opacity: 0;
@@ -112,6 +112,7 @@ nav a {
 
 .projects h2 {
   font-size: 2.8rem;
+  margin-top:0px;
 }
 
 .project-grid {
@@ -147,7 +148,7 @@ nav a {
 
 .contact h2 {
   font-size: 2.8rem;
-
+margin-top: 0px;
 }
 
 .contact p {
@@ -169,6 +170,7 @@ nav a {
   }
   .hero-content h2 {
     font-size: 1.2rem; /* Slightly smaller on mobile */
+    margin-top: 0px;
   }
 
   .hero-content p {
@@ -178,6 +180,7 @@ nav a {
   /* Projects Section */
   .projects h2 {
     font-size: 1.2rem;
+    margin-top: 0px;
   }
 
   .project-grid {
@@ -195,6 +198,7 @@ nav a {
   /* Contact Section */
   .contact h2 {
     font-size: 2rem;
+    margin-top: 0px;
   }
 
   .contact p {
