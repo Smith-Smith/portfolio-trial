@@ -215,3 +215,10 @@ nav a {
     font-size: 3rem;
   }
 }
+body, html {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
