@@ -82,6 +82,7 @@ nav a {
   opacity: 0;
   transform: translateY(20px);
   animation: dissolveIn 1.5s ease-out forwards; /* Slower dissolve */
+  margin-bottom: 0px;
 }
 
 .hero h2 {
@@ -164,6 +165,7 @@ nav a {
 
   .hero-content h1 {
     font-size: 2.2rem; /* Slightly smaller on mobile */
+    margin-bottom: 0px;
   }
   .hero-content h2 {
     font-size: 1.2rem; /* Slightly smaller on mobile */
@@ -204,6 +206,7 @@ nav a {
 @media (min-width: 1200px) {
   .hero h1 {
     font-size: 3rem;
+    margin-bottom:0px;
   }
   .hero h2 {
     font-size: 2.8rem;
