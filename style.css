@@ -74,7 +74,6 @@ nav a {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1rem;
   animation: dissolveIn 1.5s ease-out forwards; /* Slower dissolve */
 }
 
@@ -87,7 +86,7 @@ nav a {
 }
 
 .hero p {
-  margin-top: 1rem;
+
   font-size: 1.5rem;
   color: #555;
   opacity: 0;
@@ -114,7 +113,6 @@ nav a {
 
 .projects h2 {
   font-size: 2.5rem;
-  margin-bottom: 2rem;
 }
 
 .project-grid {
@@ -150,7 +148,7 @@ nav a {
 
 .contact h2 {
   font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+
 }
 
 .contact p {
