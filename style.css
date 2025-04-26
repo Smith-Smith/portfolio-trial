@@ -85,9 +85,9 @@ nav a {
   animation: dissolveIn 1.5s ease-out forwards; /* Slower dissolve */
 }
 
-.hero p {
+.hero h2 {
 
-  font-size: 1.5rem;
+  font-size: 2.8rem;
   color: #555;
   opacity: 0;
   transform: translateY(20px);
@@ -112,7 +112,7 @@ nav a {
 }
 
 .projects h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .project-grid {
@@ -147,7 +147,7 @@ nav a {
 }
 
 .contact h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 
 }
 
